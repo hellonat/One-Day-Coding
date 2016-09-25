@@ -97,10 +97,11 @@ header h2 {
 
 .clients ul li img {
   max-width: 150px;
+  margin-bottom: 15px;
 }
 
 .clients ul li {
-  display: inline-block;
+    display: inline-block;
 }
 
 .clients .btn {
@@ -118,16 +119,20 @@ footer {
   background: black;
   text-align: center;
   color: white;
-  padding: 30px 0;
+  padding: 50px 0;
 }
 
 footer ul {
-  padding: 0;
+  padding: 0px;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 10px;
 }
 
 footer ul li img {
   max-width: 30px;
-  display: inline-block;
 }
 
 footer ul li img:hover {
